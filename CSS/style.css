@@ -1,0 +1,17 @@
+.btn-black{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.carousel-indicators>button.carousel-ind-btn{
+    background-color: silver;
+    width: 16px;
+    height: 8px;
+    border-radius:50%;
+}
+.carousel-indicators>button.carousel-ind-btn.active{
+    background-image: linear-gradient(to bottom, rgba(255, 166, 0, 0.726),rgba(255, 255, 0, 0.726));
+    width: 32px;
+}
